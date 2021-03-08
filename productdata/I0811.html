@@ -1,0 +1,350 @@
+<html>
+<head>
+<title>File</title>
+<meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'>
+<link rel='stylesheet' type='text/css' href='https://scportfolio.z16.web.core.windows.net/css/gcs.css'>
+<script src='https://scportfolio.z16.web.core.windows.net/scripts/gcs.js'></script>
+<script>
+var userLang=navigator.language;
+</script>
+<script src='https://code.jquery.com/jquery-1.10.2.js'></script>
+<script>
+$.expr[':'].icontains = function(obj, index, meta, stack){
+return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0;
+};
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-100784405-1', 'auto');
+    ga('send', 'pageview');
+</script>
+</head>
+<body>
+<div class='H1'>I0811:Learn SaaS and Ultra Implementation and Transition Services</div>
+<div class='B1'>A suite of services for clients moving to Ultra either as a transition from an existing LMS or as a new implementation.</div>
+<div class='H11'><table class='DropDown2'><tr><td class='DropDown21'><button class='Plus'  id='ServiceDataPlus' onclick='showtable("ServiceData")'>+</button><button class='Minus' style='display: none;' id='ServiceDataMinus' onclick='hidetable("ServiceData")'>-</button>Service Details</td>
+<td class='DropDown22'><div class='B20'>Key information about the service.</div></td></tr></table></div>
+<table id='ServiceData' class='ServiceData'>
+<tr><td class='ServiceDataTitle'>Service Co-ordinators</td><td class='ServiceDataValue'><a href='mailto:Amanda.Reed@blackboard.com'>Amanda Reed</a><br></td><td class='ServiceDataTitle'>Last Review</td><td class='ServiceDataValue'>31 August 2017</td></tr>
+<tr><td class='ServiceDataTitle'>Product Groups</td><td class='ServiceDataValue'>
+Learn</td>
+<td class='ServiceDataTitle'>Hosting</td><td class='ServiceDataValue'>
+</td></tr>
+<tr><td class='ServiceDataTitle' title='Other languages may be available, check with your Market Lead'>Blackboard Languages</td><td class='ServiceDataValue'>
+English   <img src=''><p>More information</p>
+</td></tr>
+</table>
+</table>
+<div class='H11'><table id='packages' class='DropDown2'><tr><td class='DropDown21'><button class='Plus' style='display: inline;' id='packagestablePlus' onclick='showtable("packagestable")'>+</button><button class='Minus' id='packagestableMinus' style='display: none;' onclick='hidetable("packagestable")'>-</button>Solution Packages</td><td class='DropDown22'><div class='B20'>Product Solution Packages sold as a single item.</div></td></tr></table></div></td>
+<table width='100%' id='packagestable' style='display: none;'>
+<tr><td colspan='5' class='packages1'>
+<div class='RegionalComponentFilters'>
+<span class='RegionalComponentFilters1'>Regional Filters</span>
+<button onclick='componentregionfilter("APAC")' class='RegionalComponentFilters'>APAC <span class='APACBlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("Europe")' class='RegionalComponentFilters'>Europe <span class='EuropeBlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("LAC")' class='RegionalComponentFilters'>LAC <span class='LACBlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("RMEA")' class='RegionalComponentFilters'>RMEA <span class='RMEABlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("USCA")' class='RegionalComponentFilters'>USA/Can <span class='USCABlock'>&nbsp;</span></button>
+<button onclick='Reset();' class='RegionalComponentFilters'>Reset</button>
+</div>
+</td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>CMP INTL LEARNING ESSENTIALS SAAS ADVANTAGE PACKAGE</div><span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button></td><td class='packages2'><span class='Majornote'>Services Not Included, Add Separately</span><br></td><td class='packages3'>SAAS3-LE2-HEI-C</td><td class='packages4'><button onclick='inclprods("B0009A")'>Products Included</button></td><td class='packages5'></td><td class='RegionData'>
+ !RMEA! !EUROPE! !LAC! !APAC!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'></td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>CMP INTL LEARNING ESSENTIALS SAAS PLUS PACKAGE</div><span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button></td><td class='packages2'><span class='Majornote'>Services Not Included, Add Separately</span><br></td><td class='packages3'>SAAS2-LE2-HEI-C</td><td class='packages4'><button onclick='inclprods("B0009B")'>Products Included</button></td><td class='packages5'></td><td class='RegionData'>
+ !RMEA! !EUROPE! !LAC! !APAC!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'></td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>CMP INTL LEARNING ESSENTIALS SAAS STANDARD PACKAGE</div><span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button></td><td class='packages2'><span class='Majornote'>Services Not Included, Add Separately</span><br></td><td class='packages3'>SAAS-LE2-HEI-C</td><td class='packages4'><button onclick='inclprods("B0009C")'>Products Included</button></td><td class='packages5'></td><td class='RegionData'>
+ !RMEA! !EUROPE! !LAC! !APAC!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'></td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>Learning Core SAAS Advantage Package</div><span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='packages2'><span class='Majornote'>Services Not Included, Add Separately</span><br>Offering full SAAS benefits, with a full development environment and flexible options for version release.  Training and Implementation services need to be added.</td><td class='packages3'>SAAS3-LC-HE-P</td><td class='packages4'><button onclick='inclprods("B0002H")'>Products Included</button></td><td class='packages5'>By FTE</td><td class='RegionData'>
+ !RMEA! !EUROPE! !USCA! !LAC! !APAC!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'><table class='ProdIncl' id='IncludedB0002H'>
+<tr><td class='bundletable1 sware'>Software</td><td class='bundletable2 sware'>BLACKBOARD LEARN SAAS ADVANTG</td><td class='bundletable3 sware'>AS-LRN-SAAS3</td></tr></table>
+</td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>Learning Core SAAS Plus Package</div><span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='packages2'><span class='Majornote'>Services Not Included, Add Separately</span><br>Offering all the benefits of SAAS with greater flexibility and control.</td><td class='packages3'>SAAS2-LC-HE-P</td><td class='packages4'><button onclick='inclprods("B0002G")'>Products Included</button></td><td class='packages5'>By FTE</td><td class='RegionData'>
+ !RMEA! !EUROPE! !USCA! !LAC! !APAC!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'><table class='ProdIncl' id='IncludedB0002G'>
+<tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>BLACKBOARD LEARN SAAS PLUS</td><td class='bundletable3 saas'>AS-LRN-SAAS2</td></tr></table>
+</td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>Learning  Core SAAS Standard Package</div><span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='packages2'><span class='Majornote'>Services Not Included, Add Separately</span><br>SAAS Standard Package, offering core benefits of SAAS; including continous updates and minimal downtime.</td><td class='packages3'>SAAS-LC-HE-P</td><td class='packages4'><button onclick='inclprods("B0002F")'>Products Included</button></td><td class='packages5'>By FTE</td><td class='RegionData'>
+ !RMEA! !EUROPE! !USCA! !LAC! !APAC!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'><table class='ProdIncl' id='IncludedB0002F'>
+<tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>SAAS STND DEPLOYMENT FOR LEARN</td><td class='bundletable3 saas'>AS-LRN-SAAS</td></tr></table>
+</td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>LEARNING ESSENTIALS SAAS ADVANTAGE PACKAGE</div><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='packages2'><span class='Majornote'>For Year Two Plus Use OTR to Remove Non-Recurring Services</span><br></td><td class='packages3'>SAAS3-LE2-HE-P</td><td class='packages4'><button onclick='inclprods("B0009F")'>Products Included</button></td><td class='packages5'></td><td class='RegionData'>
+ !USCA!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'><table class='ProdIncl' id='IncludedB0009F'>
+<tr><td class='bundletable1 sware'>Software</td><td class='bundletable2 sware'>BLACKBOARD LEARN SAAS ADVANTG</td><td class='bundletable3 sware'>AS-LRN-SAAS3</td></tr><tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>WEB CONF SAAS DEPLOYMENT</td><td class='bundletable3 saas'>CL-WC-SAAS</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>ACADEMIC TECHNOLOGY PLANNING</td><td class='bundletable3 service'>AS-ACTECHPLAN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>LEARN ADMINISTRATION SERVICES</td><td class='bundletable3 train'>AS-LRNADMINSVCS-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED USING BB ENHANCE TEACH/LEARN</td><td class='bundletable3 train'>AS-EDUTCHLRN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED LEARN SAAS ADMININISTRATION</td><td class='bundletable3 train'>AS-LRNSAASADMIN-R</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB TECH SVCS HEALTH CHECK</td><td class='bundletable3 service'>CL-TECHOL-CONS</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>WEB CONF GETTING STARTED</td><td class='bundletable3 train'>CL-TRNOL-GS-WC</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>TECH SVCS SAS ESSENTIALS</td><td class='bundletable3 service'>CL-TECHOL-ADMIN</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB SAS ADVANCED WORKSHOP</td><td class='bundletable3 service'>CL-TECH-SASADV</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED GET START NEW LEARNING EXPER</td><td class='bundletable3 train'>AS-NLE-GETSTART</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>NEW LEARNING EXPERIENCE W/ LRN</td><td class='bundletable3 train'>AS-NLE-LRN-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED SAAS GUI ADMINISTRATION</td><td class='bundletable3 train'>AS-LSAASADMGUI-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>TRAINING PROGRAM DEVELOPMENT</td><td class='bundletable3 train'>AS-TPD-S</td></tr></table>
+</td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>LEARNING ESSENTIALS SAAS PLUS PACKAGE</div><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='packages2'><span class='Majornote'>For Year Two Plus Use OTR to Remove Non-Recurring Services</span><br></td><td class='packages3'>SAAS2-LE2-HE-P</td><td class='packages4'><button onclick='inclprods("B0009E")'>Products Included</button></td><td class='packages5'></td><td class='RegionData'>
+ !USCA!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'><table class='ProdIncl' id='IncludedB0009E'>
+<tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>BLACKBOARD LEARN SAAS PLUS</td><td class='bundletable3 saas'>AS-LRN-SAAS2</td></tr><tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>WEB CONF SAAS DEPLOYMENT</td><td class='bundletable3 saas'>CL-WC-SAAS</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>ACADEMIC TECHNOLOGY PLANNING</td><td class='bundletable3 service'>AS-ACTECHPLAN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>LEARN ADMINISTRATION SERVICES</td><td class='bundletable3 train'>AS-LRNADMINSVCS-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED USING BB ENHANCE TEACH/LEARN</td><td class='bundletable3 train'>AS-EDUTCHLRN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED LEARN SAAS ADMININISTRATION</td><td class='bundletable3 train'>AS-LRNSAASADMIN-R</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB TECH SVCS HEALTH CHECK</td><td class='bundletable3 service'>CL-TECHOL-CONS</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>WEB CONF GETTING STARTED</td><td class='bundletable3 train'>CL-TRNOL-GS-WC</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>TECH SVCS SAS ESSENTIALS</td><td class='bundletable3 service'>CL-TECHOL-ADMIN</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB SAS ADVANCED WORKSHOP</td><td class='bundletable3 service'>CL-TECH-SASADV</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED GET START NEW LEARNING EXPER</td><td class='bundletable3 train'>AS-NLE-GETSTART</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>NEW LEARNING EXPERIENCE W/ LRN</td><td class='bundletable3 train'>AS-NLE-LRN-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED SAAS GUI ADMINISTRATION</td><td class='bundletable3 train'>AS-LSAASADMGUI-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>TRAINING PROGRAM DEVELOPMENT</td><td class='bundletable3 train'>AS-TPD-S</td></tr></table>
+</td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>LEARNING ESSENTIALS SAAS STANDARD PACKAGE</div><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='packages2'><span class='Majornote'>For Year Two Plus Use OTR to Remove Non-Recurring Services</span><br></td><td class='packages3'>SAAS-LE2-HE-P</td><td class='packages4'><button onclick='inclprods("B0009M")'>Products Included</button></td><td class='packages5'></td><td class='RegionData'>
+ !USCA!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'><table class='ProdIncl' id='IncludedB0009M'>
+<tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>SAAS STND DEPLOYMENT FOR LEARN</td><td class='bundletable3 saas'>AS-LRN-SAAS</td></tr><tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>WEB CONF SAAS DEPLOYMENT</td><td class='bundletable3 saas'>CL-WC-SAAS</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>ACADEMIC TECHNOLOGY PLANNING</td><td class='bundletable3 service'>AS-ACTECHPLAN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>LEARN ADMINISTRATION SERVICES</td><td class='bundletable3 train'>AS-LRNADMINSVCS-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED USING BB ENHANCE TEACH/LEARN</td><td class='bundletable3 train'>AS-EDUTCHLRN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED LEARN SAAS ADMININISTRATION</td><td class='bundletable3 train'>AS-LRNSAASADMIN-R</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB TECH SVCS HEALTH CHECK</td><td class='bundletable3 service'>CL-TECHOL-CONS</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>WEB CONF GETTING STARTED</td><td class='bundletable3 train'>CL-TRNOL-GS-WC</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>TECH SVCS SAS ESSENTIALS</td><td class='bundletable3 service'>CL-TECHOL-ADMIN</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB SAS ADVANCED WORKSHOP</td><td class='bundletable3 service'>CL-TECH-SASADV</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED GET START NEW LEARNING EXPER</td><td class='bundletable3 train'>AS-NLE-GETSTART</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>NEW LEARNING EXPERIENCE W/ LRN</td><td class='bundletable3 train'>AS-NLE-LRN-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED SAAS GUI ADMINISTRATION</td><td class='bundletable3 train'>AS-LSAASADMGUI-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>TRAINING PROGRAM DEVELOPMENT</td><td class='bundletable3 train'>AS-TPD-S</td></tr></table>
+</td></tr>
+<tr class='ComponentDataRow'>
+<td class='packages1'><div class='packages1'>LEARNING ESSENTIALS SAAS STANDARD PACKAGE</div><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='packages2'><span class='Majornote'>For Year Two Plus Use OTR to Remove Non-Recurring Services</span><br></td><td class='packages3'>SAAS-LE2-HE-P</td><td class='packages4'><button onclick='inclprods("B0009D")'>Products Included</button></td><td class='packages5'></td><td class='RegionData'>
+ !USCA!</td>
+</tr>
+<tr>
+<td colspan='5' class='packages5'><table class='ProdIncl' id='IncludedB0009D'>
+<tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>SAAS STND DEPLOYMENT FOR LEARN</td><td class='bundletable3 saas'>AS-LRN-SAAS</td></tr><tr><td class='bundletable1 saas'>SaaS</td><td class='bundletable2 saas'>WEB CONF SAAS DEPLOYMENT</td><td class='bundletable3 saas'>CL-WC-SAAS</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>ACADEMIC TECHNOLOGY PLANNING</td><td class='bundletable3 service'>AS-ACTECHPLAN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>LEARN ADMINISTRATION SERVICES</td><td class='bundletable3 train'>AS-LRNADMINSVCS-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED USING BB ENHANCE TEACH/LEARN</td><td class='bundletable3 train'>AS-EDUTCHLRN-R</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED LEARN SAAS ADMININISTRATION</td><td class='bundletable3 train'>AS-LRNSAASADMIN-R</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB TECH SVCS HEALTH CHECK</td><td class='bundletable3 service'>CL-TECHOL-CONS</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>WEB CONF GETTING STARTED</td><td class='bundletable3 train'>CL-TRNOL-GS-WC</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>TECH SVCS SAS ESSENTIALS</td><td class='bundletable3 service'>CL-TECHOL-ADMIN</td></tr><tr><td class='bundletable1 service'>Service</td><td class='bundletable2 service'>COLLAB SAS ADVANCED WORKSHOP</td><td class='bundletable3 service'>CL-TECH-SASADV</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED GET START NEW LEARNING EXPER</td><td class='bundletable3 train'>AS-NLE-GETSTART</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>NEW LEARNING EXPERIENCE W/ LRN</td><td class='bundletable3 train'>AS-NLE-LRN-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>RETIRED SAAS GUI ADMINISTRATION</td><td class='bundletable3 train'>AS-LSAASADMGUI-S</td></tr><tr><td class='bundletable1 train'>Training</td><td class='bundletable2 train'>TRAINING PROGRAM DEVELOPMENT</td><td class='bundletable3 train'>AS-TPD-S</td></tr></table>
+</td></tr>
+</tr>
+</table>
+<div class='H11'><table class='DropDown2'><tr><td class='DropDown21'><button class='Plus' style='display: none;' id='ServiceComponentsPlus' onclick='showtable("ServiceComponents")'>+</button>&nbsp;<button class='Minus' id='ServiceComponentsMinus' onclick='hidetable("ServiceComponents")'>-</button>Service Components</td>
+<td class='DropDown22'><div class='B20'>Statement of work (SOW) content (where relevant), instructions and other information. Prices are given in US Dollars and are for guidance only.</div></td></tr></table></div>
+<table id='ServiceComponents' class='Docs'>
+<tr><td colspan='10' class='component1'>
+<div class='RegionalComponentFilters'>
+<span class='RegionalComponentFilters1'>Regional Filters</span>
+<button onclick='componentregionfilter("APAC")' class='RegionalComponentFilters'>APAC <span class='APACBlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("Europe")' class='RegionalComponentFilters'>Europe <span class='EuropeBlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("LAC")' class='RegionalComponentFilters'>LAC <span class='LACBlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("RMEA")' class='RegionalComponentFilters'>RMEA <span class='RMEABlock'>&nbsp;</span></button>
+<button onclick='componentregionfilter("USCA")' class='RegionalComponentFilters'>USA/Can <span class='USCABlock'>&nbsp;</span></button>
+<button onclick='Reset();' class='RegionalComponentFilters'>Reset</button>
+</div>
+</td></tr>
+<tr><th class='Component1'>Title</th><th class='Component2'>Description</th><th class='Component3'>Hosting</th><th class='Component4'>Sales Process</th><th class='Component5'>Salesforce</th><th class='Component6'>Rate B</th><th class='Component7'>Rate C</th><th class='Component8'>Rate E</th><th class='Component9'>Documents</th><th class='Component10' width='80px'>Work Breakdown</th></tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Academic Adoption Platinum - Multi Year
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I10150B</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button></td><td class='ComponentDescription'><span class='majornote'>Identify the best option in accordance with client needs.</span><br><div class='shortdescription' id='I10150Bless'>The Adoption Programme Manager will review the current situation and define a strategic roadmap based on institutional goals and comparative benchmarking. Monthly reviews with an integrated team of tr...<button class='expandtext' onclick='expandtext("I10150B")'>more</button></div><div class='longdescription' id='I10150Bmore'>The Adoption Programme Manager will review the current situation and define a strategic roadmap based on institutional goals and comparative benchmarking. Monthly reviews with an integrated team of trusted advisors will monitor and track the impact of the roadmap. The Adoption Programme Manager will also provide additional consulting based on organisational requirements.<button class='shrinktext' onclick='shrinktext("I10150B")'>less</button></div><p>See Also:<a href='I1015.html'>Academic Adoption Service</a></p></td><td class='Hosting'>OLMS SaaS<br>Self Hosted<br>Managed<br>Collab SaaS</td><td class='Scoping' title=''><button onclick='Cameleon("stdapp.html")'>Standard Approval</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>ES-ICS-STDES-S</div><div class='Invoicing'>FFP Renewable</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>$ 75,000</td>
+<td class='ComponentRate'>$ 65,000</td>
+<td class='ComponentRate'>$ 45,000</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/I10150B_PISOW.docx' class='ComponentDocument'>SOW<br>&nbsp;EN(UK)&nbsp;docx</a></div></td><td class='ComponentWBS'>
+<a href='I10150B_WBS.html'>WBS</a>
+</td>
+<td class='RegionData'>
+ !LAC! !APAC! !RMEA! !EUROPE!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Academic Technology Planning
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;A0019A</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><p>A one-off engagement to review current use of learning technology, reflect on new and emerging trends and capabilities and plan for future development.</p></td><td class='Hosting'>Self Hosted<br>Learn SaaS<br>Managed</td><td class='Scoping' title='Market Lead approval is not required, enter the services product directly into Salesforce.'><button onclick='Cameleon("PreApproved.html")'>Pre-Approved</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-ACTECHPLAN-FFP</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentPricingTable' colspan='3'><button onclick='pricingtable("https://scportfolio.z16.web.core.windows.net/media/images/PricingTables/AS-ACTECHPLAN-FFP_PricingTable.html")'>Pricing Table</button></td><td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/AS-ACTECHPLAN_FFP_Academic_Technology_Planning_SOW_20170907.docx' class='ComponentDocument'>SOW<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/AS-ACTECHPLAN-FFP_ProEd_ProLaunch_20170907.docx' class='ComponentDocument'>SOW<br>ProEd&nbsp;EN(US)&nbsp;docx</a></div></td><td class='ComponentWBS'>
+<a href='A0019A_WBS.html'>WBS</a>
+</td>
+<td class='RegionData'>
+ !USCA! !LAC! !APAC! !RMEA! !EUROPE!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Administration and Teaching Flex
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;A0056B</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><div class='shortdescription' id='A0056Bless'>This service combinesTeaching Readiness and Administration Readiness, to form a customizable training experience for teachers, instructional designers, and administrators. The workshop does not provid...<button class='expandtext' onclick='expandtext("A0056B")'>more</button></div><div class='longdescription' id='A0056Bmore'>This service combinesTeaching Readiness and Administration Readiness, to form a customizable training experience for teachers, instructional designers, and administrators. The workshop does not provide instruction for managing the Blackboard Learn application at the server level. The modular format that allows a targeted experience based on training and implementation needs, containing up to 14 modules. 
+
+This workshop is delivered onsite in two engagements. Each onsite engagement is 3½ consecutive days. A remotely delivered version of this workshop is available via Collaborate.<button class='shrinktext' onclick='shrinktext("A0056B")'>less</button></div></td><td class='Hosting'>Learn SaaS<br>Learn MH<br>Learn SH</td><td class='Scoping' title='Onsite Training'><button onclick='Cameleon("onstrain.html")'>Onsite or Remote</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-LRNREADY-FLEX</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentPricingTable' colspan='3'><button onclick='pricingtable("https://scportfolio.z16.web.core.windows.net/media/images/PricingTables/AS-LRNREADY-FLEX_PricingTable.html")'>Pricing Table</button></td><td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesSheets/EducationalServices/LN_A0056B_Admin_Teach_Read_Flex_20190108.pdf' class='ComponentDocument'>Sales Sheet<br>HE&nbsp;EN(US)&nbsp;PDF</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/A0056B_AS-LRNREADY-FLEX_LearnAdministrationandTeachingReadinessFlex_FFP_SOW.docx' class='ComponentDocument'>SOW<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/A0056B_AS-LRNREADY-FLEX_LearnAdministrationandTeachingReadinessFlex_FFP_OTRSOW.docx' class='ComponentDocument'>SOW for OTR<br>HE&nbsp;EN(US)&nbsp;docx</a></div></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+ !USCA! !LAC! !APAC! !RMEA! !EUROPE!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Administration Services
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I31110A</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><div class='shortdescription' id='I31110Aless'>Learn Administration Services - A series of remote sessions designed to provide clients with maximum flexibility in selecting topics and delivery times for assistance in configuring their Learn system...<button class='expandtext' onclick='expandtext("I31110A")'>more</button></div><div class='longdescription' id='I31110Amore'>Learn Administration Services - A series of remote sessions designed to provide clients with maximum flexibility in selecting topics and delivery times for assistance in configuring their Learn system. The program comprises five synchronous two-hour sessions delivered remotely via Blackboard Collaborate. The aim of these sessions is to help the client customize their Blackboard environment so that it best serves their particular instructional goals and institutional structure. With assistance as needed from the consultant, the client may choose the topics most relevant and useful to their institution, and decide the level of depth in which they wish to cover them. These sessions are designed to address configuration sessions via the GUI (Graphic User Interface). They will not cover technical topics, including but not limited to server maintenance and installation.<button class='shrinktext' onclick='shrinktext("I31110A")'>less</button></div></td><td class='Hosting'>Learn MH<br>Learn SH<br>Learn SaaS</td><td class='Scoping' title='Can only be delivered remotely via webinar not onsite'><button onclick='Cameleon("remtrain.html")'>Remote</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-LRNADMINSVCS</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>$ 2,500</td>
+<td class='ComponentRate'>$ 2,500</td>
+<td class='ComponentRate'>$ 2,500</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesSheets/EducationalServices/LN_I31110A_Admin_Services_20190108.pdf' class='ComponentDocument'>Sales Sheet<br>HE&nbsp;EN(US)&nbsp;PDF</a></div></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+ !APAC! !EUROPE! !LAC! !USCA! !RMEA!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Teaching and Learning with Collaborate Web Conferencing
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;A0049A</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><div class='shortdescription' id='A0049Aless'>The Teaching and Learning with Collaborate workshop is designed to help participants build a solid foundation and understanding of the Collaborate product. The workshop uses a modular training format ...<button class='expandtext' onclick='expandtext("A0049A")'>more</button></div><div class='longdescription' id='A0049Amore'>The Teaching and Learning with Collaborate workshop is designed to help participants build a solid foundation and understanding of the Collaborate product. The workshop uses a modular training format that allows you to create a targeted experience for participants based on your training and implementation needs.  Clients will choose 4 modules. A Blackboard Consultant will work with your team to ensure that the learning objectives fit the needs of your institution.<button class='shrinktext' onclick='shrinktext("A0049A")'>less</button></div></td><td class='Hosting'>Collab SaaS</td><td class='Scoping' title='Onsite Training'><button onclick='Cameleon("onstrain.html")'>Onsite or Remote</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>CL-TRN-TCHLRN-WC</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>USD$ 4,000</td>
+<td class='ComponentRate'>USD$ 4,000</td>
+<td class='ComponentRate'>USD$ 4,000</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/A0049A_CL-TRN-TCHLRN-WC_TeachingandLearningwithCollaborate_FFP_SOW.docx' class='ComponentDocument'>SOW<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/A0049A_CL-TRN-TCHLRN-WC_TeachingandLearningwithCollaborate_FFP_OTRSOW.docx' class='ComponentDocument'>SOW for OTR<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesSheets/EducationalServices/CB_A0049A_TeachLearn_20190108.pdf' class='ComponentDocument'>Sales Sheet<br>HE&nbsp;EN(US)&nbsp;PDF</a></div></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+ !USCA! !LAC! !APAC! !RMEA! !EUROPE!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Collaborate Web Conferencing Certification
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I0016D</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><div class='shortdescription' id='I0016Dless'>At Blackboard, we understand the direct relationship between training, certification, and the improved performance of teams using the web conferencing capabilities of Blackboard Collaborate. To help g...<button class='expandtext' onclick='expandtext("I0016D")'>more</button></div><div class='longdescription' id='I0016Dmore'>At Blackboard, we understand the direct relationship between training, certification, and the improved performance of teams using the web conferencing capabilities of Blackboard Collaborate. To help grow and validate your staff’s skills in order to achieve top-tier performance, we’ve developed the Blackboard Collaborate Web Conferencing Certification.<button class='shrinktext' onclick='shrinktext("I0016D")'>less</button></div></td><td class='Hosting'>Collab SaaS</td><td class='Scoping' title=''><button onclick='Cameleon("onltr.html")'>Online Training</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>CL-TRN-CERT-WC</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>USD$ 500</td>
+<td class='ComponentRate'>USD$ 500</td>
+<td class='ComponentRate'>USD$ 500</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/I0016D_CL-TRN-CERT-WC__FFP_SOW.docx' class='ComponentDocument'>SOW<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/I0016D_CL-TRN-CERT-WC__FFP_OTRSOW.docx' class='ComponentDocument'>SOW for OTR<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesSheets/EducationalServices/CB_Certification_20190108.pdf' class='ComponentDocument'>Sales Sheet<br>HE&nbsp;EN(US)&nbsp;PDF</a></div></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+ !USCA! !LAC! !APAC! !RMEA! !EUROPE!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Learn SIS Integration Framework Mentoring
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I41130A</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><p>The objective is to assist clients with the implementation of Blackboard Learn Release 9.1 SIS Integration Framework. The service documents business requirements and the integration configuration.  There are also reference documents for custom scripting and troubleshooting.</p></td><td class='Hosting'>Managed<br>Learn SaaS<br>Self Hosted</td><td class='Scoping' title='Market Lead approval is not required, enter the services product directly into Salesforce.'><button onclick='Cameleon("PreApproved.html")'>Pre-Approved</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-INTGRMENT</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>$ 22,000</td>
+<td class='ComponentRate'>$ 14,500</td>
+<td class='ComponentRate'>$ 14,500</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/TechnicalServices/I41130A_LearnSISIntegrationFrameworkMentoring_FFP_SOW.docx' class='ComponentDocument'>SOW<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/TechnicalServices/I41130A_LearnSISIntegrationFrameworkMentoring_TM_SOW.docx' class='ComponentDocument'>SOW<br>HE&nbsp;EN(US)&nbsp;docx</a></div></td><td class='ComponentWBS'>
+<a href='I41130A_WBS.html'>WBS</a>
+</td>
+<td class='RegionData'>
+ !APAC! !EUROPE! !LAC! !USCA! !RMEA!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Training <span class='Programme'>Programme</span> Development Annual Subscription
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I30110A</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><span class='majornote'>Recommended</span><br><div class='shortdescription' id='I30110Aless'>The Training Program Development solution, TPD, is a comprehensive professional development package that provides organizations with the resources needed to build a self-sustaining training program at...<button class='expandtext' onclick='expandtext("I30110A")'>more</button></div><div class='longdescription' id='I30110Amore'>The Training Program Development solution, TPD, is a comprehensive professional development package that provides organizations with the resources needed to build a self-sustaining training program at their institution. This allows an organization’s master training team to focus on training and support instead of the development and maintenance of materials. The solution is designed to provide current and accurate training and support material that an organization’s master instructional team can use to train an unlimited number of their learning constituents. TPD materials facilitated from an organization’s Learn and/or Collaborate instance by their master instructional team, allowing an organization the freedom to rebrand and modify the materials to meet their needs.<button class='shrinktext' onclick='shrinktext("I30110A")'>less</button></div><p>English language only.</p></td><td class='Hosting'>Learn SaaS<br>Collab SaaS<br>Managed<br>Self Hosted</td><td class='Scoping' title='Training Materials'><button onclick='Cameleon("trainmat.html")'>Training Materials</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-TPD-S</div><div class='Invoicing'>FFP Renewable</div></td></tr>
+</table>
+</td>
+<td class='ComponentPricingTable' colspan='3'><button onclick='pricingtable("https://scportfolio.z16.web.core.windows.net/media/images/PricingTables/AS-TPD-S_PricingTable.html")'>Pricing Table</button></td><td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesDecks/EducationalServices/I3011_TPD_PitchDeck_20181116.pptx' class='ComponentDocument'>Sales Deck<br>HE&nbsp;EN(US)&nbsp;pptx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/I30110A_AS-TPD-S_LearnandCollaborateTrainingMaterials_FFP_SOW.docx' class='ComponentDocument'>SOW<br>HE&nbsp;EN(US)&nbsp;docx</a></div><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/StatementsofWork/I30110A_AS-TPD-S_LearnandCollaborateTrainingMaterials_FFP_OTRSOW.docx' class='ComponentDocument'>SOW for OTR<br>HE&nbsp;EN(US)&nbsp;docx</a></div></td><td class='ComponentWBS'>
+<a href='I30110A_WBS.html'>WBS</a>
+</td>
+<td class='RegionData'>
+ !APAC! !EUROPE! !LAC! !USCA! !RMEA!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Faculty Mentoring Service
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;A0021A</span></span><br>
+<span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><div class='shortdescription' id='A0021Aless'>Faculty Mentoring Service - This service is designed to provide one-on-one mentoring to an institution’s faculty members. Through this individual, personalized service, faculty with different levels o...<button class='expandtext' onclick='expandtext("A0021A")'>more</button></div><div class='longdescription' id='A0021Amore'>Faculty Mentoring Service - This service is designed to provide one-on-one mentoring to an institution’s faculty members. Through this individual, personalized service, faculty with different levels of experience, knowledge, and expertise can expand their online teaching and learning skills by working directly with a Blackboard product expert. The service consists of 60 hours of one-on-one remotely delivered meetings. A Blackboard training expert will conduct scheduled office hours for which faculty can register.<button class='shrinktext' onclick='shrinktext("A0021A")'>less</button></div><p>See Also:<a href='A0021.html'>Learn Blackboard Educator Training Support Package</a></p></td><td class='Hosting'>Learn SaaS<br>Learn MH<br>Learn SH</td><td class='Scoping' title='Can only be delivered remotely via webinar not onsite'><button onclick='Cameleon("remtrain.html")'>Remote</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-MENTORING</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>Custom</td>
+<td class='ComponentRate'>Custom</td>
+<td class='ComponentRate'>Custom</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesSheets/EducationalServices/LN_A0021A_Faculty_Mentoring_20190108.pdf' class='ComponentDocument'>Sales Sheet<br>HE&nbsp;EN(US)&nbsp;PDF</a></div></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+ !USCA!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Learn Administration Essentials Certification
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I3111F</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><div class='shortdescription' id='I3111Fless'>This course introduces you to managing the Blackboard Learn platform via the Graphical User Interface (GUI) through readings, recordings, assignments, discussions, and assessments. In addition, the co...<button class='expandtext' onclick='expandtext("I3111F")'>more</button></div><div class='longdescription' id='I3111Fmore'>This course introduces you to managing the Blackboard Learn platform via the Graphical User Interface (GUI) through readings, recordings, assignments, discussions, and assessments. In addition, the course reviews best practices for managing the environment. This course does not cover managing the server. Please note that to take this course, each person will need System Administrator Access to his or her institution’s Blackboard Learn platform.<button class='shrinktext' onclick='shrinktext("I3111F")'>less</button></div><p>See Also:<a href='I3113.html'>Learn Certification Programs</a></p></td><td class='Hosting'>Learn SaaS<br>Managed<br>Self Hosted</td><td class='Scoping' title=''><button onclick='Cameleon("onltr.html")'>Online Training</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-CERT-ADM</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>USD$ 2,500</td>
+<td class='ComponentRate'>USD$ 2,500</td>
+<td class='ComponentRate'>USD$ 2,500</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesSheets/EducationalServices/LN_I3111F_Admin_Essentials_Cert_20190108.pdf' class='ComponentDocument'>Sales Sheet<br>HE&nbsp;EN(US)&nbsp;PDF</a></div></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+ !APAC! !EUROPE! !LAC! !USCA! !RMEA!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Getting Started with Online Course Design
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I3111H</span></span><br>
+<span title='Asia-Pacific region' class='APACBlock'>A</span></button><span title='Europe' class='EUROPEBlock'>Eu</span></button><span title='Latin America and the Caribbean' class='LACBlock'>L</span></button><span title='Russia, Middle East and Africa' class='RMEABlock'>RM</span></button><span title='Unied States and Canada' class='USCABlock'>NAm</span></button></td><td class='ComponentDescription'><div class='shortdescription' id='I3111Hless'>The goal of this facilitated course is to help teachers get started with online course design. While teachers know how to design a course for the face-to-face environment, they don’t always have the k...<button class='expandtext' onclick='expandtext("I3111H")'>more</button></div><div class='longdescription' id='I3111Hmore'>The goal of this facilitated course is to help teachers get started with online course design. While teachers know how to design a course for the face-to-face environment, they don’t always have the knowledge required to design an online one. Designing online courses requires a paradigm shift in thinking about what a course is and how it is delivered. It can be more challenging than most expect. For this reason, we’ve created this course to aid in easing the transition and in creating an online course that meets the needs of both students and teachers. The course introduces participants to best practices for online course design, and it provides an Online Course Planning Document to use while planning and designing online courses. A course facilitator will review submitted design documents and provide feedback to course participants. This course focuses on course design and is not platform specific; therefore, it is relevant to all users, no matter the system participants plan to use for delivering courses.<button class='shrinktext' onclick='shrinktext("I3111H")'>less</button></div></td><td class='Hosting'>Self Hosted<br>Managed<br>Learn SaaS</td><td class='Scoping' title=''><button onclick='Cameleon("onltr.html")'>Online Training</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-GETSTARTOLCRSD</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>USD$ 400</td>
+<td class='ComponentRate'>USD$ 400</td>
+<td class='ComponentRate'>USD$ 400</td>
+<td class='ComponentDocuments'><div class='ComponentDocument'><a href='https://onblackboard.sharepoint.com/sites/GlobalConsulting/sales/SalesDocuments/SalesSheets/EducationalServices/LN_I3111H_GS_Course_Design_20190108.pdf' class='ComponentDocument'>Sales Sheet<br>HE&nbsp;EN(US)&nbsp;pdf</a></div><div class='ComponentDocument'><a href='https://youtu.be/bRJtb7RYgro' class='ComponentDocument'>Sales Video</a></div></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+ !USCA! !LAC! !APAC! !RMEA! !EUROPE!</td>
+</tr>
+<tr class='ComponentDataRow'>
+<td class='Component1'>Consulting Timebox
+<span class='component1'><span class='hidden' onmouseover='highlight(this)' onmouseout='unhighlight(this)'> &nbsp;I00100A</span></span><br>
+</td><td class='ComponentDescription'><span class='majornote'>May be required for large and complex implementations.</span><br><div class='shortdescription' id='I00100Aless'>A flexible allocation of hours, to augment the internal team.  The hours can be for technical, functional or strategic consulting. Generally contracted at the start of the project on a firm and fixed ...<button class='expandtext' onclick='expandtext("I00100A")'>more</button></div><div class='longdescription' id='I00100Amore'>A flexible allocation of hours, to augment the internal team.  The hours can be for technical, functional or strategic consulting. Generally contracted at the start of the project on a firm and fixed price basis, but may be time and materials.  Must be used within 12 months of the contract date unless specifically allocated to future years.<button class='shrinktext' onclick='shrinktext("I00100A")'>less</button></div><p>See Also:<a href='I0010.html'>Educational Consulting Timebox</a></p></td><td class='Hosting'>Learn SaaS<br>Managed<br>Self Hosted</td><td class='Scoping' title='This service is based on a standard scope, but an estimate may still required to determine details and optional elements.  Please allow sufficient time in your forecast.'><button onclick='Cameleon("Configure.html")'>Configurable</button>
+</td><td class='ComponentProductID' title='SFDC Product ID'>
+<table class='ProductIDs'>
+<tr><td class='ProductID'><div class='ProductID' onclick=''>AS-ICS-HRS-FFP</div><div class='Invoicing'>FFP One Year</div></td></tr>
+</table>
+</td>
+<td class='ComponentRate' title='Rate Card B'>Custom</td>
+<td class='ComponentRate'>Custom</td>
+<td class='ComponentRate'>Custom</td>
+<td class='ComponentDocuments'></td><td class='ComponentWBS'>
+</td>
+<td class='RegionData'>
+</td>
+</tr>
+</table>
+</div>
+</body>
+<script>langpack();selectview(2);</script>
+</html>

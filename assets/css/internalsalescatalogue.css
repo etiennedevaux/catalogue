@@ -4,5 +4,27 @@
 /* Variable */
 :root{
 --menubuttonwidth: %;
---cssfileversion: "0001";
+--cssfileversion: "0005";
+}
+/* Headers */
+.CatDivisionHead{
+	font-weight: bold;
+	font-family:Lato;
+	font-size: 18px;
+	color: #000;
+	margin: 0px;
+	display: inline-block;
+}
+/* Catalogue Division Box */
+.CatDivision{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 0px;
+	border: 0px;
+	border-top: solid 2px #469ee1;
+	background-color: #fff;
+	padding: 9px 0px 17px 0px;
+}
+/* Paragraph Expand Button */
+.Plus{
+margin: 0 10px;
 }
