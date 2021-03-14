@@ -1,8 +1,8 @@
 // Global Variables
-var jsfileversion="0021";
+var jsfileversion="0022";
 
 function ServicePage(pagefile) {
-    window.open("productdata/template.html",'_blank','top=50,left=50,width=1000,height=700,');
+    window.open("productdata/template.html",'_blank','top=50,left=50,width=1200,height=700,');
 }
 
 function selectview(view){
